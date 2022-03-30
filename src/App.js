@@ -6,6 +6,7 @@ import { FirstOrder } from './components/FirstOrder';
 import { Footer } from './components/Footer';
 import { OneTreePlanted } from './components/OneTreePlanted';
 import { Rewards } from './components/Rewards';
+import { RightReserved } from './components/RightReserved';
 import { SpringSantuary } from './components/SpringSantuary';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Features />
       <FirstOrder />
       <Footer />
+      <RightReserved />
     </div>
   );
 }
