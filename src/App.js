@@ -3,6 +3,7 @@ import { ClientComments } from './components/ClientComments';
 import { Dishes } from './components/Dishes';
 import { Features } from './components/Features';
 import { FirstOrder } from './components/FirstOrder';
+import { Footer } from './components/Footer';
 import { OneTreePlanted } from './components/OneTreePlanted';
 import { Rewards } from './components/Rewards';
 import { SpringSantuary } from './components/SpringSantuary';
@@ -18,6 +19,7 @@ function App() {
       <Rewards />
       <Features />
       <FirstOrder />
+      <Footer />
     </div>
   );
 }
