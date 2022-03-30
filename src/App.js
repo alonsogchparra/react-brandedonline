@@ -1,8 +1,10 @@
 import { AmericanRivera } from './components/AmericanRivera';
 import { ClientComments } from './components/ClientComments';
+import { ClientCommentsTwo } from './components/ClientCommentsTwo';
 import { Dishes } from './components/Dishes';
 import { Features } from './components/Features';
 import { FirstOrder } from './components/FirstOrder';
+import { FollowKaren } from './components/FollowKaren';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { Navbar } from './components/Navbar';
@@ -21,6 +23,7 @@ function App() {
       <SpringSantuary />
       <OneTreePlanted />
       <ClientComments />
+      <FollowKaren />
       <Rewards />
       <Features />
       <FirstOrder />

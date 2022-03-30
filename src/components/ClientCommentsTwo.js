@@ -1,5 +1,4 @@
 import React from 'react';
-// import BlondOne from '../img/blond_slide_1.png';
 import { ClientOne } from './ClientOne';
 import { ClientTwo } from './ClientTwo';
 
@@ -13,11 +12,11 @@ import { Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-export const ClientComments = () => {
+export const ClientCommentsTwo = () => {
   return (
-    <div className='bg-zinc-50 py-10 px-4 sm:px-10 lg:px-28 mb-10'>
+    <div className='bg-zinc-50 py-10 px-28 mb-40'>
       <Swiper
-        // navigation={true}
+        navigation={true}
         modules={[Navigation]}
         edgeSwipeThreshold='50px'
         loop={true}

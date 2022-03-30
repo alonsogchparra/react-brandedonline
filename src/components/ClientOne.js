@@ -3,7 +3,7 @@ import BlondOne from '../img/blond_slide_1.png';
 
 export const ClientOne = () => {
   return (
-    <div className='flex flex-col sm:flex-row'>
+    <div className='flex flex-col md:flex-row'>
       <div className='basis-1/2 pr-24'>
         <div className='flex flex-col justify-center items-center h-full'>
           <h1 className='playfair text-4xl leading-normal blonde-one'>
