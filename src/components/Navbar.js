@@ -107,7 +107,7 @@ export const Navbar = () => {
           <div className='relative w-72'>
             <div className='w-72 absolute'>
               <div className='flex items-center justify-between py-1'>
-                <h4>Need Help?</h4>
+                <h4 className='text-secondary font-light'>Need Help?</h4>
                 <div className='arrow-down-icon'></div>
               </div>
               <div className='absolute left-24 top-1'>
@@ -196,12 +196,12 @@ export const Navbar = () => {
               <ul className='flex justify-center items-center'>
                 <li className='md:relative px-3'>
                   <a href='https://www.google.com' className='flex-row'>
-                    <span className='nav-item-title'>Search</span>
+                    <span className='nav-item-title font-light text-primary'>Search</span>
                   </a>
                 </li>
                 <li className='md:relative px-3'>
                   <a href='https://www.google.com' className='flex-row'>
-                    <span className='nav-item-title'>Log In</span>
+                    <span className='nav-item-title font-light text-primary'>Log In</span>
                   </a>
                 </li>
                 <li className='md:relative px-3'>
@@ -223,7 +223,7 @@ export const Navbar = () => {
                 </li>
                 <li className='md:relative px-3'>
                   <a href='https://www.google.com' className='flex-row'>
-                    <span className='nav-item-title'>My Bag 0</span>
+                    <span className='nav-item-title font-light text-primary'>My Bag 0</span>
                   </a>
                 </li>
               </ul>
@@ -232,14 +232,14 @@ export const Navbar = () => {
         </div>
         <nav className='w-full flex justify-center items-center pt-6 pb-2 container mx-auto'>
           <ul className='flex items-center'>
-            <li className='md:relative px-3'>New Arrivals</li>
-            <li className='md:relative px-3'>Clothing</li>
-            <li className='md:relative px-3'>Plus</li>
-            <li className='md:relative px-3'>Collections</li>
-            <li className='md:relative px-3'>Spring 2022</li>
-            <li className='md:relative px-3'>Accesories</li>
-            <li className='md:relative px-3'>Home</li>
-            <li className='md:relative px-3'>Sale</li>
+            <li className='md:relative px-3 font-light text-primary'>New Arrivals</li>
+            <li className='md:relative px-3 font-light text-primary'>Clothing</li>
+            <li className='md:relative px-3 font-light text-primary'>Plus</li>
+            <li className='md:relative px-3 font-light text-primary'>Collections</li>
+            <li className='md:relative px-3 font-light text-primary'>Spring 2022</li>
+            <li className='md:relative px-3 font-light text-primary'>Accesories</li>
+            <li className='md:relative px-3 font-light text-primary'>Home</li>
+            <li className='md:relative px-3 font-light text-primary'>Sale</li>
           </ul>
         </nav>
       </div>
