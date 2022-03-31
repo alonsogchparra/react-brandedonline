@@ -100,4 +100,8 @@
   .karen-instagram .swiper .swiper-button-next {
     right: -1px;
   }
+
+  .border-header {
+    border-right-width: 1px;
+  }
 }
