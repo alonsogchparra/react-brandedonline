@@ -4,8 +4,8 @@ export const FirstOrder = () => {
   return (
     <div className='bg-slate-100 mt-10 py-10'>
       <div className='flex flex-col justify-center items-center'>
-        <h1 className='playfair text-4xl'>Receive 20% Off Your First Order</h1>
-        <p className='gtamerica text-gray-600 my-5'>
+        <h1 className='playfair text-4xl text-primary'>Receive 20% Off Your First Order</h1>
+        <p className='gtameric my-5 text-secondary'>
           Get notified first and stay on top of the trends with emails and text
           alerts
         </p>

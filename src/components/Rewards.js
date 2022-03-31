@@ -5,10 +5,10 @@ export const Rewards = () => {
     <div className='bg-plants'>
       <div className='grid grid-cols-1 sm:grid-cols-2 mx-20 py-10'>
         <div className='flex flex-col mb-5'>
-          <h1 className='playfair text-4xl mb-10 text-center sm:text-left'>
+          <h1 className='playfair text-4xl mb-10 text-center sm:text-left text-primary '>
             Karen Kane Rewards
           </h1>
-          <p className='gtamerica text-center sm:text-left'>
+          <p className='gtamerica text-center sm:text-left text-secondary'>
             Members get rewarded for shopping, sharing their favorite styles,
             reviewing best-selling looks, and more.
           </p>
@@ -27,7 +27,7 @@ export const Rewards = () => {
             Already a Member?
             <a href='https://www.google.com'>
               {' '}
-              <span className='underline'>LOG IN</span>
+              <span className='underline font-bold'>LOG IN</span>
             </a>
           </h1>
         </div>

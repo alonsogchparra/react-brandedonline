@@ -2,7 +2,10 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      'cmp-one': 'url(../../src/img/component_one.png)',
+      colors: {
+        primary: '#3a3a3a',
+        secondary: '#616365'
+      }
     },
   },
   plugins: [],

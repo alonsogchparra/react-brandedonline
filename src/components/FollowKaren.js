@@ -16,7 +16,7 @@ export const FollowKaren = () => {
   return (
     <div className='mb-10'>
       <div>
-        <h2 className='text-center gtamerica text-lg font-light mb-10'>
+        <h2 className='text-center gtamerica text-lg font-light mb-10 text-primary'>
           @KarenKane
         </h2>
       </div>
