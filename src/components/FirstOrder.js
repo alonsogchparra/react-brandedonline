@@ -10,7 +10,12 @@ export const FirstOrder = () => {
           alerts
         </p>
         <div>
-          <button className='bg-black text-white px-16 py-3'>Subscribe</button>
+          <button
+            className='bg-black text-white hover:bg-white hover:border-2 
+          hover:border-black hover:text-black px-16 py-3'
+          >
+            Subscribe
+          </button>
         </div>
       </div>
     </div>

@@ -15,7 +15,12 @@ export const Rewards = () => {
         </div>
         <div className='flex flex-col justify-center items-center'>
           <div className='w-full text-center mb-5'>
-            <button className='bg-black px-16 py-3 text-white'>Join Now</button>
+            <button
+              className='bg-black px-16 py-3 text-white 
+            hover:bg-white hover:text-black hover:border-2 hover:border-black'
+            >
+              Join Now
+            </button>
           </div>
 
           <h1 className='w-full text-center'>
