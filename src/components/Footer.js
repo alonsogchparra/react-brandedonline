@@ -226,7 +226,7 @@ export const Footer = () => {
         </ul>
       </nav>
       {/* Second Nav */}
-      <nav className='sm:col-span-1 mb-10 mt-10 lg:mt-0'>
+      <nav className='sm:col-span-1 mb-10 md:mt-10 lg:mt-0'>
         <h4>MY ACCOUNT</h4>
 
         <ul className='pt-5'>

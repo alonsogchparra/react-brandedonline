@@ -26,8 +26,6 @@ export const FollowKaren = () => {
           slidesPerView={6}
           navigation={true}
           modules={[Navigation]}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
           loop={true}
           breakpoints={{
             100: {
