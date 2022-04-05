@@ -23,11 +23,11 @@ export const Rewards = () => {
             </button>
           </div>
 
-          <h1 className='w-full text-center'>
+          <h1 className='w-full text-center font-medium'>
             Already a Member?
             <a href='https://www.google.com'>
               {' '}
-              <span className='underline font-bold'>LOG IN</span>
+              <span className='underline font-medium'>LOG IN</span>
             </a>
           </h1>
         </div>

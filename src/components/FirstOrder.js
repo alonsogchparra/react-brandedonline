@@ -2,7 +2,7 @@ import React from 'react';
 
 export const FirstOrder = () => {
   return (
-    <div className='bg-slate-100 mt-10 py-10'>
+    <div className='bg-footer_bg mt-10 py-10'>
       <div className='flex flex-col justify-center items-center'>
         <h1 className='playfair text-4xl text-primary'>Receive 20% Off Your First Order</h1>
         <p className='gtameric my-5 text-secondary'>

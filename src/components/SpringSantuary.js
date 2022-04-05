@@ -35,7 +35,7 @@ export const SpringSantuary = () => {
           </a>
         </div>
 
-        <div className='row-start-2 py-10 px-8 sm:py-1 sm:px-0'>
+        <div className='row-start-2 lg:mt-3 py-10 px-8 sm:py-1 sm:px-0'>
           <h2 className='playfair text-3xl text-primary'>
             Most Loved Artisan Jewelry
           </h2>
@@ -50,7 +50,7 @@ export const SpringSantuary = () => {
             Shop Accessories
           </a>
         </div>
-        <div className='py-10 px-8 sm:py-1 sm:px-0'>
+        <div className='lg:mt-3 py-10 px-8 sm:py-1 sm:px-0'>
           <h2 className='playfair text-3xl text-primary'>
             New Flattering Fits
           </h2>

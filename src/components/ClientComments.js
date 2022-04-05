@@ -15,7 +15,7 @@ import 'swiper/css/navigation';
 
 export const ClientComments = () => {
   return (
-    <div className='bg-zinc-50 py-10 px-4 sm:px-10 lg:px-28 mb-10'>
+    <div className='bg-client_bg pt-10 pb-28 px-4 sm:px-10 lg:px-28 mb-10'>
       <Swiper
         // navigation={true}
         modules={[Navigation]}

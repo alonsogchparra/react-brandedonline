@@ -5,7 +5,7 @@ export const Features = () => {
     <div>
       <div className='grid grid-cols-1 sm:grid-cols-2 sm:gap-5 gap-y-5 mt-10'>
         <div className='relative block'>
-          <div className='absolute top-1/2 w-full'>
+          <div className='absolute top-44 w-full'>
             <h2 className='text-white playfair text-4xl text-center'>
               Best-Sellers
             </h2>
@@ -19,7 +19,7 @@ export const Features = () => {
           </a>
         </div>
         <div className='relative block'>
-          <div className='absolute top-1/2 w-full'>
+          <div className='absolute top-44 w-full'>
             <h2 className='text-white playfair text-4xl text-center'>
               Karen's Blog
             </h2>
